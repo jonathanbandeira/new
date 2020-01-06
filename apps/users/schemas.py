@@ -15,3 +15,5 @@ class UserRegistrationSchema(Schema):
 class UserSchema(Schema):
     full_name = Str(required=True, error_messages={'required': 'Campo obrigatório'})
     email = Email(required=True, error_messages={'required': 'Campo obrigatório'})
+
+
